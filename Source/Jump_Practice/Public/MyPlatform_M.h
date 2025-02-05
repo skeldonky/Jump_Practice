@@ -51,6 +51,7 @@ protected:
 	// 피벗 위치를 중앙으로 이동
 	void MovePivotToCenter();
 
+	//랜덤 버튼
 	UFUNCTION(CallInEditor, Category = "Movement")
 	void SetRandomMoveSpeed();
 };
